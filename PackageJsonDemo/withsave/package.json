@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/adityamandlekar/fullstackwebdevbootcamp#readme",
   "dependencies": {
+    "cat-me": "^1.0.3",
     "express": "^4.17.1"
   }
 }
