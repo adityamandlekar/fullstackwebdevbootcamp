@@ -10,9 +10,9 @@ app.listen(process.env.PORT,process.env.IP,function(){
 });
 
 app.get("/myloveyfamily",function(req,res){
-    res.send("Madhura Nihal Mahi Aai Baba ketki Mahesh - You are my World");
+    res.send("Madhura Nihal Mahi Aai Baba ketki Mahesh and all beloved ones - You are my World");
 });
 
 app.get("/world",function(req,res){
-    res.send("Vasudhaiva Kutumbakam");
+    res.send("Vasudhaiva Kutumbakam-world");
 });
