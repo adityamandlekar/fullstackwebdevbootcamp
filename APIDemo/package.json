@@ -1,0 +1,23 @@
+{
+  "name": "fullstackwebdevbootcamp",
+  "version": "1.0.0",
+  "description": "API Demo",
+  "main": "first_request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityamandlekar/fullstackwebdevbootcamp.git"
+  },
+  "author": "adityamandlekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityamandlekar/fullstackwebdevbootcamp/issues"
+  },
+  "homepage": "https://github.com/adityamandlekar/fullstackwebdevbootcamp#readme",
+  "dependencies": {
+    "node": "^13.13.0",
+    "request": "^2.88.2"
+  }
+}
