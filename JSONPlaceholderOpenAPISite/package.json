@@ -1,0 +1,15 @@
+{
+  "name": "jsonplaceholderopenapisite",
+  "version": "1.0.0",
+  "description": "JSON Placeholder WebSite Demo as Yahoo API needs API Key--> http://jsonplaceholder.typicode.com/",
+  "main": "jsonplaceholder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adityamandlekar",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^13.13.0",
+    "request": "^2.88.2"
+  }
+}
