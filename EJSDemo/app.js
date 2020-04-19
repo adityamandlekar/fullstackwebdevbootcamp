@@ -1,13 +1,16 @@
 var express = require("express")
 var app =express();
 
+app.use(express.static("public"));
+app.set("view engine","ejs");
+
 app.get("/",function(req,res){
-    res.render("home.ejs");
+    res.render("home");
 });
 
 app.get("/fallinlovewith/:thing",function(req,res){
     var thing=req.params.thing;
-    res.render("thing.ejs",{thingVar:thing});
+    res.render("thing",{thingVar:thing});
 });
 
 app.get("/Posts",function(req,res){
@@ -22,7 +25,7 @@ app.get("/Posts",function(req,res){
             userName:"AdityaM2",surname:"Mandlekar2"
         }
         ]
-    res.render("posts.ejs",{posts:posts});
+    res.render("posts",{posts:posts});
 
 });
 
