@@ -1,0 +1,19 @@
+<%- include ("partials/header") %>
+<p> This is demo for EJS -PostRequest Demo </p>
+<p> Freinds List Goes Here !!! </p>
+
+<% friends.forEach(function(friends) { %>
+
+<li>
+   <strong> <%=  friends  %> </strong> 
+</li>
+
+<% } )%>
+
+<form action="/addFreind" method="Post">
+    <input type ="text" name="newFreind" placeholder="name">
+    <button>I made a new Freind</button>
+</form>
+
+
+<%- include ("partials/footer") %>
