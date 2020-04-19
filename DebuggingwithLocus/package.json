@@ -1,0 +1,26 @@
+{
+  "name": "fullstackwebdevbootcamp",
+  "version": "1.0.0",
+  "description": "html css javascript nodejs npm expresjs mongo restapi and many more",
+  "main": "locustool.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityamandlekar/fullstackwebdevbootcamp.git"
+  },
+  "author": "adityamandlekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityamandlekar/fullstackwebdevbootcamp/issues"
+  },
+  "homepage": "https://github.com/adityamandlekar/fullstackwebdevbootcamp#readme",
+  "devDependencies": {
+    "locus": "^2.0.0"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "requst": "0.0.1-security"
+  }
+}
