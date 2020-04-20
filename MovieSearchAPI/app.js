@@ -14,7 +14,7 @@ app.get("/results",function(req,res){
      var query=req.query.search;
      var url="http://www.omdbapi.com/?s="+query;
      //One needs to add API key to url to work . I am removing Code for security Purpose
-     var key="&apikey=2077500b"; 
+     var key="&apikey=PUTYOUROWNKEYCANTSHAREDUETOSECURITY"; 
      url+=key;
     request(url,function(error,response,body){
      
