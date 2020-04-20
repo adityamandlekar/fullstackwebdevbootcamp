@@ -19,6 +19,7 @@
   "author": "adityamandlekar@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^3.0.2",
     "express": "^4.17.1",
     "request": "^2.88.2"
