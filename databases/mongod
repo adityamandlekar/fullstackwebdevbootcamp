@@ -1,0 +1,1 @@
+mongod --bind_IP=$IP --dbpath=data --nojournal --rest "$@"
