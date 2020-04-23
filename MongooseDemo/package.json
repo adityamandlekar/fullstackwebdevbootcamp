@@ -1,0 +1,14 @@
+{
+  "name": "mongoosedemo",
+  "version": "1.0.0",
+  "description": "Mongoose is MongoDB object modeling designed to work in an asynchronous environment.Object Data Mapper. Javascript which can interact with MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adityamandlekar",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.10"
+  }
+}
