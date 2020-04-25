@@ -4,7 +4,7 @@ var express    = require('express'),
     bodyParser = require('body-parser'),
     mongoose   = require('mongoose');
     
-mongoose.connect("mongodb://localhost/yelp_camp");
+mongoose.connect("mongodb://localhost:27017/yelp_camp",{newURLParser:true});
 
 var campgroundSchema = new mongoose.Schema({
     name:String,
