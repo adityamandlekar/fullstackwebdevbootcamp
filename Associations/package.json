@@ -1,0 +1,17 @@
+{
+  "name": "associations",
+  "version": "1.0.0",
+  "description": "\"Associations -1 to many relations demo, Embed data vs Object Reference,Modules.export for code refactor\"  ",
+  "main": "references.js",
+  "dependencies": {
+    "g": "^2.0.1",
+    "mongoose": "^4.13.20",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adityamandlekar@gmail.com",
+  "license": "ISC"
+}
