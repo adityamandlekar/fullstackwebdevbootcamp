@@ -1,0 +1,29 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "Yelp camp - Boot camp for Full Stack web Development",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adityamandlekar"
+  },
+  "keywords": [
+    "Full",
+    "Stack",
+    "Web",
+    "Development"
+  ],
+  "author": "adityamandlekar@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "request": "^2.88.2",
+    "seeds": "^2.3.1"
+  }
+}
