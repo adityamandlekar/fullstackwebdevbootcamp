@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Aditya Mandlekar",
+  "author": "Aditya Mandlekar
+  
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.1",
