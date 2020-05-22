@@ -1,0 +1,28 @@
+{
+  "name": "v1",
+  "version": "1.0.0",
+  "description": "YelpCamp Final - UI Improvements Refactor Flash Messages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Mandlekar",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "body-parser": "^1.14.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "g": "^2.0.1",
+    "i": "^0.3.6",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.12",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^3.1.0",
+    "request": "^2.65.0"
+  }
+}
