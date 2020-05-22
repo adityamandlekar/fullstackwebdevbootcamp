@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.4.1",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "g": "^2.0.1",
+    "heroku": "^7.41.1"
   }
 }
